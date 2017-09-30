@@ -48,7 +48,8 @@ private:
     QString trans;//翻译
     QString trans_;//无时间轴
     QString songID;//歌曲id
-
+    QString singer;//歌手
+    QString song;//歌名
 };
 
 #endif // MAINWINDOW_H

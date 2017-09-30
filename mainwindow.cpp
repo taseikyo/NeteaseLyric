@@ -47,12 +47,14 @@ void MainWindow::Get_Data(QString string){
         rx.setPattern("data-res-name=\"(.*)\"");
         int pos = string.indexOf(rx);
         if ( pos >= 0 ){
-            ui->songNameEdit->setText(rx.cap(1));
+            song = rx.cap(1);
+            ui->songNameEdit->setText(song);
         }
         rx.setPattern("data-res-author=\"(.*)\"");
         pos = string.indexOf(rx);
         if ( pos >= 0 ){
-            ui->singerEdit->setText(rx.cap(1));
+            singer = rx.cap(1);
+            ui->singerEdit->setText(singer);
         }
         first = false;
     }
@@ -125,13 +127,22 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
 {
     if (event->modifiers() == Qt::ControlModifier){
         if(event->key() == Qt::Key_S){
-            path = QFileDialog::getSaveFileName(this, "Sava File", "", "*.lrc");
+            if(singer.isEmpty() || song.isEmpty()) return;
+//            qDebug()<<singer<<song;
+            QRegExp rx("/");
+            int pos = singer.indexOf(rx);
+            while(pos >= 0) {
+                singer.replace(pos, 1, '&');
+                pos = singer.indexOf(rx);
+//                qDebug()<<pos;
+            }
+            path = QFileDialog::getSaveFileName(this, "Sava File", song+" - "+singer+".lrc", "*.lrc");
             if(path.isEmpty()){
                 return;
             }
             QFile outFile(path);
             if (!outFile.open(QIODevice::WriteOnly|QIODevice::Text)) {
-                QMessageBox::critical(NULL, "提示", "无法创建文件");
+                QMessageBox::critical(this, "警告", "无法创建文件");
                 return;
             }
             QTextStream outTS(&outFile);
