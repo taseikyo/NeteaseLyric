@@ -22,6 +22,8 @@ Of course you can save the lyric as a .lrc file using shortcuts `ctrl+s`.
 
 <img src="https://i.loli.net/2017/09/30/59cf082354a39.png" alt="v2.0.png" title="v2.0.png" width="450" />
 
+<h2 style="color: red;">注：本软件仅作学习交流,不得进行任何商业用途,否则产生的一切后果将由使用者本人承担！</h2>
+
 ## Licence
 
 ### [MIT](https://github.com/LewisTian/NeteaseLyric/blob/master/LICENSE)
