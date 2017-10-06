@@ -19,9 +19,8 @@ You can also hide timeline or translation by clicking the corresponding checkbox
 <img src="https://pic3.zhimg.com/v2-1f66b0f451e28a6fe0740eb186d13f56_b.png" width="300" alt="hide" title="hide"/>
 
 Of course you can save the lyric as a .lrc file using shortcuts `ctrl+s`.
-### v1.0
-<img src="https://pic4.zhimg.com/v2-bae6f4ff7a822b43c6d8cb34f3bb1e77_b.png" width="450" alt="v1.0.png" title="v1.0.png"/>
-### v2.0
+
 <img src="https://i.loli.net/2017/09/30/59cf082354a39.png" alt="v2.0.png" title="v2.0.png" width="450" />
+
 ## Licence
 ### [MIT](https://github.com/LewisTian/NeteaseLyric/blob/master/LICENSE)
