@@ -4,11 +4,13 @@ download lyric from Netease.
 
 中文介绍查看[知乎](https://www.zhihu.com/question/27638171/answer/217582659)
 
+## Preview
+![Preview.gif](https://i.loli.net/2017/10/15/59e3343733180.gif)
+
 ## Installing
-### v1.0 [Download](https://github.com/LewisTian/NeteaseLyric/releases/tag/v1.0)
 ### v2.0 [Download](https://github.com/LewisTian/NeteaseLyric/releases/tag/v2.0)
 
-## Reference
+## Usage
 Copy song'url or song'id from [netease cloud music](http://music.163.com/) , then paste into the input field. 
 Click the button `get` or press `enter` to obtain the lyric.
 
