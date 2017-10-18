@@ -1,6 +1,6 @@
 # NeteaseLyric<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=420355667,752750136&fm=58" alt="icon" title="icon" width = "25">
 
-download lyric from Netease.
+## Download lyrics from Netease.
 
 中文介绍查看[知乎](https://www.zhihu.com/question/27638171/answer/217582659)
 
@@ -8,7 +8,8 @@ download lyric from Netease.
 ![Preview.gif](https://i.loli.net/2017/10/15/59e3343733180.gif)
 
 ## Installing
-### v2.0 [Download](https://github.com/LewisTian/NeteaseLyric/releases/tag/v2.0)
+1. v2.0 [Download](https://github.com/LewisTian/NeteaseLyric/releases/tag/v2.0)(recommend!)
+2. clone the repo, then open the `NeteaseLrc.pro` with [Qt Creater](https://www1.qt.io/qt5-8/)(my QT version is 5.8), finally compile the code.
 
 ## Usage
 Copy song'url or song'id from [netease cloud music](http://music.163.com/) , then paste into the input field. 
