@@ -1,6 +1,6 @@
 # NeteaseLyric<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=420355667,752750136&fm=58" alt="icon" title="icon" width = "25">
 
-## Download lyrics from Netease.
+## Download lyrics from [Netease Cloud Music](http://music.163.com/).
 
 中文介绍查看[知乎](https://www.zhihu.com/question/27638171/answer/217582659)
 
