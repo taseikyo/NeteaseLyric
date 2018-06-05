@@ -10,6 +10,10 @@
 1. v2.0 [Download](https://github.com/LewisTian/NeteaseLyric/releases/tag/v2.0)(recommend!)
 2. clone the repo, then open the `NeteaseLrc.pro` with [Qt Creater](https://www1.qt.io/qt5-8/)(my QT version is 5.8), finally compile the code.
 
+## Alternative
+PyQt version is released. If you cannot run CloudLrcV2.0.exe due to missing dll libs or errors, you can try the [PyQT Version](https://github.com/LewisTian/NeteaseLyric/releases/tag/v2.0). Just download the zip file, and unzip it.
+
+
 ## Usage
 Copy song'url or song'id from [netease cloud music](http://music.163.com/) , then paste into the input field. 
 Click the button `get` or press `enter` to obtain the lyric.
